@@ -1,0 +1,16 @@
+
+<body style="background-color:gray;">
+  <form method="post" novalidate>
+    {% csrf_token %}
+    <div style="margin-bottom: 5px;">
+    <span style="padding: 100px 20px 20px 20px;">Firstname:</span> {{ form.Firstname }} </div><br>
+    <div><span style="padding: 20px 20px 20px 20px;">Lastname:</span> {{ form.Lastname }} </div><br>
+    <div><span style="padding: 20px 50px 20px 20px;"> email:</span> {{ form.email}}</div> <br>
+    <div><span style="padding: 20px 20px 20px 20px;">Phonenumber:</span> {{form.Phonenumber}}</div> <br>
+    <div><span style="padding: 20px 20px 20px 20px;">password:</span> {{ form.password}} </div><br>
+    <div><span style="padding: 20px 20px 20px 20px;">confirmpassword:</span> {{ form.confirmpassword}}</div> <br>
+    <div><span style="padding: 20px 20px 20px 20px;">pincode:</span> {{ form.pincode}}</div> <br>
+    <button style="margin-left: 200px;" type="submit">submit</button>
+  
+  </form>
+</body>

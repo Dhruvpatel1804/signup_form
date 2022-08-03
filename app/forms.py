@@ -33,7 +33,7 @@ class ContactForm(forms.Form):
 
 
 
-# firstname
+# firstname -
 # lastname
 # username - auto generated-2 letter fname - 2 lname -2 phonenum
 # email  - unique
